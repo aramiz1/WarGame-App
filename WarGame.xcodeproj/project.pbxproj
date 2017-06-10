@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00545CA91ED379F400DD8D3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00545CA81ED379F400DD8D3D /* AppDelegate.swift */; };
+		00545CAB1ED379F400DD8D3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00545CAA1ED379F400DD8D3D /* ViewController.swift */; };
+		00545CAE1ED379F400DD8D3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00545CAC1ED379F400DD8D3D /* Main.storyboard */; };
+		00545CB01ED379F400DD8D3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00545CAF1ED379F400DD8D3D /* Assets.xcassets */; };
+		00545CB31ED379F400DD8D3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00545CB11ED379F400DD8D3D /* LaunchScreen.storyboard */; };
+		00545CBB1ED37AAA00DD8D3D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00545CBA1ED37AAA00DD8D3D /* GoogleService-Info.plist */; };
+		0095796C1ED60FCF00E25DA6 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0095796B1ED60FCF00E25DA6 /* GameViewController.swift */; };
+		372D04E5566F9E32ED83C032 /* Pods_WarGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD0ECFE8FAB2BDC796A5355 /* Pods_WarGame.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00545CA51ED379F400DD8D3D /* WarGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00545CA81ED379F400DD8D3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00545CAA1ED379F400DD8D3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00545CAD1ED379F400DD8D3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00545CAF1ED379F400DD8D3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00545CB21ED379F400DD8D3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00545CB41ED379F400DD8D3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00545CBA1ED37AAA00DD8D3D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0095796B1ED60FCF00E25DA6 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		3F7A0CEDCB048F1464FE1B53 /* Pods-WarGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WarGame/Pods-WarGame.debug.xcconfig"; sourceTree = "<group>"; };
+		5BD0ECFE8FAB2BDC796A5355 /* Pods_WarGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WarGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7ECF066C211A7C0B2D310E4 /* Pods-WarGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-WarGame/Pods-WarGame.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00545CA21ED379F400DD8D3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372D04E5566F9E32ED83C032 /* Pods_WarGame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00545C9C1ED379F400DD8D3D = {
+			isa = PBXGroup;
+			children = (
+				00545CA71ED379F400DD8D3D /* WarGame */,
+				00545CA61ED379F400DD8D3D /* Products */,
+				11C49C60DE612FBC07FEB5DA /* Pods */,
+				4C4654FE7266D2715CFD6CB4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		00545CA61ED379F400DD8D3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00545CA51ED379F400DD8D3D /* WarGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00545CA71ED379F400DD8D3D /* WarGame */ = {
+			isa = PBXGroup;
+			children = (
+				00545CA81ED379F400DD8D3D /* AppDelegate.swift */,
+				00545CAA1ED379F400DD8D3D /* ViewController.swift */,
+				00545CAC1ED379F400DD8D3D /* Main.storyboard */,
+				00545CAF1ED379F400DD8D3D /* Assets.xcassets */,
+				00545CB11ED379F400DD8D3D /* LaunchScreen.storyboard */,
+				00545CB41ED379F400DD8D3D /* Info.plist */,
+				00545CBA1ED37AAA00DD8D3D /* GoogleService-Info.plist */,
+				0095796B1ED60FCF00E25DA6 /* GameViewController.swift */,
+			);
+			path = WarGame;
+			sourceTree = "<group>";
+		};
+		11C49C60DE612FBC07FEB5DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F7A0CEDCB048F1464FE1B53 /* Pods-WarGame.debug.xcconfig */,
+				B7ECF066C211A7C0B2D310E4 /* Pods-WarGame.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4C4654FE7266D2715CFD6CB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BD0ECFE8FAB2BDC796A5355 /* Pods_WarGame.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00545CA41ED379F400DD8D3D /* WarGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00545CB71ED379F400DD8D3D /* Build configuration list for PBXNativeTarget "WarGame" */;
+			buildPhases = (
+				97FD2137D8F744AAF9B88BA5 /* [CP] Check Pods Manifest.lock */,
+				00545CA11ED379F400DD8D3D /* Sources */,
+				00545CA21ED379F400DD8D3D /* Frameworks */,
+				00545CA31ED379F400DD8D3D /* Resources */,
+				4232BDA34A57C835D5BF79B3 /* [CP] Embed Pods Frameworks */,
+				2B58A2E2ED7521C299F5001F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WarGame;
+			productName = WarGame;
+			productReference = 00545CA51ED379F400DD8D3D /* WarGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00545C9D1ED379F400DD8D3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "War Project Xcode";
+				TargetAttributes = {
+					00545CA41ED379F400DD8D3D = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 00545CA01ED379F400DD8D3D /* Build configuration list for PBXProject "WarGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00545C9C1ED379F400DD8D3D;
+			productRefGroup = 00545CA61ED379F400DD8D3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00545CA41ED379F400DD8D3D /* WarGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00545CA31ED379F400DD8D3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00545CB31ED379F400DD8D3D /* LaunchScreen.storyboard in Resources */,
+				00545CBB1ED37AAA00DD8D3D /* GoogleService-Info.plist in Resources */,
+				00545CB01ED379F400DD8D3D /* Assets.xcassets in Resources */,
+				00545CAE1ED379F400DD8D3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B58A2E2ED7521C299F5001F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WarGame/Pods-WarGame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4232BDA34A57C835D5BF79B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WarGame/Pods-WarGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97FD2137D8F744AAF9B88BA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00545CA11ED379F400DD8D3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00545CAB1ED379F400DD8D3D /* ViewController.swift in Sources */,
+				0095796C1ED60FCF00E25DA6 /* GameViewController.swift in Sources */,
+				00545CA91ED379F400DD8D3D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00545CAC1ED379F400DD8D3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00545CAD1ED379F400DD8D3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00545CB11ED379F400DD8D3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00545CB21ED379F400DD8D3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00545CB51ED379F400DD8D3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00545CB61ED379F400DD8D3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00545CB81ED379F400DD8D3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F7A0CEDCB048F1464FE1B53 /* Pods-WarGame.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WarGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xcodeproject.WarGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		00545CB91ED379F400DD8D3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7ECF066C211A7C0B2D310E4 /* Pods-WarGame.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WarGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xcodeproject.WarGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00545CA01ED379F400DD8D3D /* Build configuration list for PBXProject "WarGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00545CB51ED379F400DD8D3D /* Debug */,
+				00545CB61ED379F400DD8D3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00545CB71ED379F400DD8D3D /* Build configuration list for PBXNativeTarget "WarGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00545CB81ED379F400DD8D3D /* Debug */,
+				00545CB91ED379F400DD8D3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00545C9D1ED379F400DD8D3D /* Project object */;
+}
